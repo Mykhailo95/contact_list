@@ -1,5 +1,6 @@
-from app import create_db_table
+from app import create_app
 
-app = create_db_table()
+app = create_app()
 app.run(debug=True)
+
 
