@@ -1,5 +1,3 @@
-from crypt import methods
-from operator import or_
 from flask import current_app as app
 from flask import request
 from .models import db, Email, Phone, Contact
